@@ -1,0 +1,6 @@
+services:
+  anvil-pcam-lab:
+    build: .
+    ports:
+      - "8420:8420"
+    restart: unless-stopped

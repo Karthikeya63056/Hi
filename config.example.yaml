@@ -1,0 +1,14 @@
+# Anvil PCAM Lab is intentionally lightweight. The default demo uses deterministic
+# in-memory 64-dimensional attractor patterns and does not require external services.
+
+pcam:
+  dimension: 64
+  beta: 14.0
+  iterations: 18
+  step_size: 0.74
+  gaussian_sigma: 0.58
+  mask_fraction: 0.28
+
+web:
+  host: 127.0.0.1
+  port: 8420

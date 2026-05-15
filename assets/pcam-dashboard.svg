@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Anvil PCAM Lab dashboard preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02050d"/>
+      <stop offset="0.52" stop-color="#071b2e"/>
+      <stop offset="1" stop-color="#020812"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#53dcff"/>
+      <stop offset="1" stop-color="#7cf7bd"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#8bc5e8" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect width="1200" height="720" fill="url(#grid)" opacity="0.7"/>
+  <circle cx="160" cy="100" r="180" fill="#53dcff" opacity="0.11"/>
+  <circle cx="980" cy="130" r="210" fill="#7cf7bd" opacity="0.08"/>
+  <text x="58" y="66" fill="#e9f6ff" font-family="Avenir Next, Segoe UI, sans-serif" font-size="30" font-weight="800">Anvil PCAM Lab</text>
+  <text x="60" y="95" fill="#82a1b8" font-family="monospace" font-size="14">ANVIL P-04 / Hopfield-style attractor retrieval / adaptive precision operator Π</text>
+
+  <rect x="48" y="130" width="260" height="520" rx="22" fill="#081323" fill-opacity="0.78" stroke="#8bc5e8" stroke-opacity="0.22"/>
+  <rect x="332" y="130" width="500" height="330" rx="22" fill="#081323" fill-opacity="0.78" stroke="#8bc5e8" stroke-opacity="0.22"/>
+  <rect x="332" y="480" width="500" height="170" rx="22" fill="#081323" fill-opacity="0.78" stroke="#8bc5e8" stroke-opacity="0.22"/>
+  <rect x="856" y="130" width="296" height="250" rx="22" fill="#081323" fill-opacity="0.78" stroke="#8bc5e8" stroke-opacity="0.22"/>
+  <rect x="856" y="400" width="296" height="250" rx="22" fill="#081323" fill-opacity="0.78" stroke="#8bc5e8" stroke-opacity="0.22"/>
+
+  <text x="74" y="171" fill="#82a1b8" font-family="monospace" font-size="12" letter-spacing="2">ATTRACTOR BANK</text>
+  <g fill="#0d1e36" stroke="#53dcff" stroke-opacity="0.26">
+    <rect x="74" y="195" width="204" height="46" rx="12"/>
+    <rect x="74" y="253" width="204" height="46" rx="12"/>
+    <rect x="74" y="311" width="204" height="46" rx="12"/>
+    <rect x="74" y="369" width="204" height="46" rx="12"/>
+  </g>
+  <text x="92" y="224" fill="#e9f6ff" font-family="monospace" font-size="14">A01 phase-lattice</text>
+  <text x="92" y="282" fill="#e9f6ff" font-family="monospace" font-size="14">A02 spectral-gate</text>
+  <text x="92" y="340" fill="#e9f6ff" font-family="monospace" font-size="14">A03 causal-ridge</text>
+  <text x="92" y="398" fill="#e9f6ff" font-family="monospace" font-size="14">A04 topology-code</text>
+  <rect x="74" y="548" width="204" height="48" rx="14" fill="url(#cyan)"/>
+  <text x="108" y="578" fill="#02111b" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="800">Retrieve With Π</text>
+
+  <text x="362" y="171" fill="#e9f6ff" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="800">Attractor Convergence</text>
+  <polyline points="390,384 440,342 486,350 538,298 602,262 672,231 768,195" fill="none" stroke="#7cf7bd" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#53dcff" opacity="0.72">
+    <circle cx="390" cy="384" r="7"/><circle cx="440" cy="342" r="7"/><circle cx="486" cy="350" r="7"/>
+    <circle cx="538" cy="298" r="7"/><circle cx="602" cy="262" r="7"/><circle cx="672" cy="231" r="7"/>
+  </g>
+  <circle cx="768" cy="195" r="17" fill="none" stroke="#ffd166" stroke-width="4"/>
+  <circle cx="768" cy="195" r="8" fill="#ffd166"/>
+  <text x="690" y="182" fill="#ffd166" font-family="monospace" font-size="12">target basin</text>
+
+  <text x="362" y="521" fill="#e9f6ff" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="800">Energy Landscape</text>
+  <polyline points="368,614 428,596 488,581 548,560 608,550 668,540 728,536 804,535" fill="none" stroke="#a8b5ff" stroke-width="3"/>
+  <polyline points="368,625 428,588 488,553 548,532 608,522 668,516 728,514 804,514" fill="none" stroke="#7cf7bd" stroke-width="4"/>
+
+  <text x="882" y="171" fill="#e9f6ff" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="800">Precision Operator Π</text>
+  <g>
+    <script type="application/ecmascript"><![CDATA[]]></script>
+    <rect x="884" y="198" width="22" height="22" rx="5" fill="#0b4d63"/>
+    <rect x="912" y="198" width="22" height="22" rx="5" fill="#147c8c"/>
+    <rect x="940" y="198" width="22" height="22" rx="5" fill="#35bfd6"/>
+    <rect x="968" y="198" width="22" height="22" rx="5" fill="#7cf7bd"/>
+    <rect x="996" y="198" width="22" height="22" rx="5" fill="#0b4d63"/>
+    <rect x="1024" y="198" width="22" height="22" rx="5" fill="#1c95a5"/>
+    <rect x="1052" y="198" width="22" height="22" rx="5" fill="#53dcff"/>
+    <rect x="1080" y="198" width="22" height="22" rx="5" fill="#123d54"/>
+  </g>
+  <g transform="translate(884 228)">
+    <rect width="22" height="22" rx="5" fill="#51d9ff"/><rect x="28" width="22" height="22" rx="5" fill="#164e63"/><rect x="56" width="22" height="22" rx="5" fill="#7cf7bd"/><rect x="84" width="22" height="22" rx="5" fill="#1c95a5"/><rect x="112" width="22" height="22" rx="5" fill="#35bfd6"/><rect x="140" width="22" height="22" rx="5" fill="#0b4d63"/><rect x="168" width="22" height="22" rx="5" fill="#53dcff"/><rect x="196" width="22" height="22" rx="5" fill="#147c8c"/>
+  </g>
+  <g transform="translate(884 258)">
+    <rect width="22" height="22" rx="5" fill="#0b4d63"/><rect x="28" width="22" height="22" rx="5" fill="#7cf7bd"/><rect x="56" width="22" height="22" rx="5" fill="#53dcff"/><rect x="84" width="22" height="22" rx="5" fill="#123d54"/><rect x="112" width="22" height="22" rx="5" fill="#1c95a5"/><rect x="140" width="22" height="22" rx="5" fill="#35bfd6"/><rect x="168" width="22" height="22" rx="5" fill="#164e63"/><rect x="196" width="22" height="22" rx="5" fill="#7cf7bd"/>
+  </g>
+
+  <text x="882" y="441" fill="#e9f6ff" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="800">Memory Graph</text>
+  <g stroke="#53dcff" stroke-opacity="0.22">
+    <line x1="1000" y1="470" x2="1060" y2="520"/><line x1="1000" y1="470" x2="936" y2="530"/>
+    <line x1="936" y1="530" x2="1012" y2="598"/><line x1="1060" y1="520" x2="1012" y2="598"/>
+    <line x1="1060" y1="520" x2="1110" y2="584"/>
+  </g>
+  <g fill="#53dcff">
+    <circle cx="1000" cy="470" r="10"/><circle cx="936" cy="530" r="8"/><circle cx="1060" cy="520" r="8"/>
+    <circle cx="1012" cy="598" r="8"/><circle cx="1110" cy="584" r="8"/>
+  </g>
+  <circle cx="1000" cy="470" r="18" fill="none" stroke="#7cf7bd" stroke-width="3"/>
+</svg>
